@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Digital Bookshelf</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 720px; margin: 0 auto; padding: 48px 24px; line-height: 1.7; color: #2d1b4e; background: #fafafa; }
+    h1 { color: #1a0f2e; }
+    h2 { color: #2d1b4e; margin-top: 32px; }
+    a { color: #d4af37; }
+    .meta { color: #888; font-size: 14px; }
+    nav a { margin-right: 16px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <nav><a href="./">← Home</a> · <a href="./terms.html">Terms of Service</a></nav>
+
+  <h1>Privacy Policy — Digital Bookshelf</h1>
+  <p class="meta"><strong>Last updated:</strong> May 15, 2026</p>
+
+  <h2>What we do</h2>
+  <p>Digital Bookshelf ("we", "the app") is a publishing automation tool that helps independent authors post short-form book promotion videos to their own TikTok accounts.</p>
+
+  <h2>What we collect</h2>
+  <p>We only access the data that you explicitly authorize through TikTok's OAuth flow:</p>
+  <ul>
+    <li><strong>Your TikTok user profile</strong> (display name, avatar, follower count) — to identify which account to post to</li>
+    <li><strong>Video upload permissions</strong> — to publish video files you have generated</li>
+  </ul>
+  <p>We do <strong>not</strong> collect:</p>
+  <ul>
+    <li>TikTok messages or comments</li>
+    <li>Other users' data</li>
+    <li>Browser history</li>
+    <li>Device location</li>
+    <li>Payment information (handled by Beacons / Payhip / Stripe)</li>
+  </ul>
+
+  <h2>How we use it</h2>
+  <ul>
+    <li><strong>Authentication:</strong> verify you are the owner of the TikTok account</li>
+    <li><strong>Posting:</strong> upload <code>.mp4</code> files you have created to your TikTok feed</li>
+    <li><strong>Logging:</strong> keep a local record of which videos were posted (for retry on failure)</li>
+  </ul>
+
+  <h2>Data storage</h2>
+  <ul>
+    <li>TikTok OAuth tokens (<code>access_token</code>, <code>refresh_token</code>) are stored <strong>locally on your own machine</strong> in <code>tokens_&lt;account&gt;.json</code></li>
+    <li>We do <strong>not</strong> run a cloud server</li>
+    <li>We do <strong>not</strong> sell, share, or transmit your data to any third party</li>
+    <li>We do <strong>not</strong> use your data for advertising or machine learning training</li>
+  </ul>
+
+  <h2>Your rights</h2>
+  <ul>
+    <li>You can revoke our access at any time: <a href="https://www.tiktok.com/setting/security-and-privacy/connected-apps">https://www.tiktok.com/setting/security-and-privacy/connected-apps</a></li>
+    <li>You can delete the local token file at any time</li>
+    <li>You can request deletion of any data we hold by emailing the operator</li>
+  </ul>
+
+  <h2>Third parties</h2>
+  <p>We do not use third-party analytics, advertising, or tracking. The only third party we interact with is TikTok itself (via the official Content Posting API).</p>
+
+  <h2>Children's privacy</h2>
+  <p>This app is not directed at children under 13. We do not knowingly collect data from minors.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy. The "Last updated" date will reflect any changes.</p>
+
+  <h2>Contact</h2>
+  <p>For questions, open an issue at <a href="https://github.com/uxth/digital-bookshelf-legal/issues">github.com/uxth/digital-bookshelf-legal/issues</a></p>
+
+  <hr style="margin-top: 48px; border: 0; border-top: 1px solid #e0e0e0;">
+  <p class="meta">© 2026 Digital Bookshelf</p>
+</body>
+</html>
